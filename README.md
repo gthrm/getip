@@ -7,19 +7,22 @@
 
 ### 🏠 [Homepage](https://github.com/gthrm/getip)
 
-### ✨ [Demo](https://github.com/gthrm/getip)
+### ✨ [Demo](https://getmyip.ga/)
 
-## Install
+## Install (for ZSH)
 
 ```sh
-npm install
+echo "alias myip='curl https://getmyip.ga/'" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
+
+> :warning: **Reboot of the terminal is required**
 
 ## Usage
 
 ```sh
-npm run start
+myip
 ```
+
 
 ## Author
 
